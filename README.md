@@ -9,6 +9,9 @@ To run the project, simply execute the `master` script. This script loads custom
 ### data
 Data from the European Social Survey (ESS) is used to measure the degree of political participation. Information on country-level degrees of social expenditures, corruption levels and youth unemployment is obtained by the OECD data portal and the World Bank.
 
+### figures
+All plots created for the report saved as png-files.
+
 ### model files
 All models are implemented as Stan files which are stored in this folder. Additionally, to get a better understanding of the sampling process, each model is also implemented via the Metropolis Hastings algorithm in an additional R script.
 
